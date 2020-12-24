@@ -1,5 +1,8 @@
 import React from 'react';
 
+import screenshot from '../../resources/images/screenshot-dark.png';
+import mysterySVG from '../../resources/ui/mystery.svg'
+
 const Portfolio = () => {
   return (
     <section id="portfolio" className="divide">
@@ -56,7 +59,7 @@ const Portfolio = () => {
       <div className="row">
         <div className="project-card col-2">
           <div className="avatar screenshot">
-            <img src="assets/images/screenshot-dark.png" alt="screenshot"/>
+            <img src={screenshot} alt="screenshot"/>
           </div>
           <div className="details">
             <h3>yougotwill.github.io</h3>
@@ -82,7 +85,7 @@ const Portfolio = () => {
       <div className="row">
         <div className="project-card col-2">
           <div className="avatar">
-            <img src="assets/ui/mystery.svg" alt="screenshot"/>
+            <img src={mysterySVG} alt="screenshot"/>
           </div>
           <div className="details">
             <h3>Sortifiler Desktop</h3>

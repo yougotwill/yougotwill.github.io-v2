@@ -1,5 +1,9 @@
-import React from 'react';
 // TODO upgrade
+import React from 'react';
+
+import lightSVG from '../../resources/ui/theme-light.svg';
+import darkSVG from '../../resources/ui/theme-dark.svg';
+
 const ThemeToggle = () => {
   const clickHandler = () => {
     localStorage.setItem('mode',
@@ -12,8 +16,8 @@ const ThemeToggle = () => {
   };
   return (
     <div className="theme-toggle" onClick={clickHandler}>
-      <img src="assets/ui/theme-light.svg" alt='sun' className="light" />
-      <img src="assets/ui/theme-dark.svg" alt='moon' className="dark" />
+      <img src={lightSVG} alt='sun' className="light" />
+      <img src={darkSVG} alt='moon' className="dark" />
     </div>
   );
 };

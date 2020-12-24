@@ -1,5 +1,18 @@
 import React from 'react';
 
+import javascriptSVG from '../../resources/ui/javascript.svg';
+import reactSVG from '../../resources/ui/react.svg';
+import emberSVG from '../../resources/ui/ember.svg';
+import nodeSVG from '../../resources/ui/node.svg';
+import html5SVG from '../../resources/ui/html5.svg';
+import css3SVG from '../../resources/ui/css3.svg';
+import sassSVG from '../../resources/ui/sass.svg';
+import tailwindSVG from '../../resources/ui/tailwind.svg';
+import unitySVG from '../../resources/ui/unity.svg';
+import csharpSVG from '../../resources/ui/csharp.svg';
+import pythonSVG from '../../resources/ui/python.svg';
+import javaSVG from '../../resources/ui/java.svg';
+
 const About = () => {
   return (
     <section id="about">
@@ -9,22 +22,22 @@ const About = () => {
           <h3 className="heading">Skills</h3>
           <div className="skills">
             <div className='is-tablet row'>
-              <div className="skill col-4"><span>Javascript</span><img src='assets/ui/javascript.svg' width="48px" height="48px" alt='javascript' /></div>
-              <div className="skill col-4"><span>React.js</span><img src='assets/ui/react.svg' width="48px" height="48px" alt='react' /></div>
-              <div className="skill col-4"><span>Ember.js</span><img src='assets/ui/ember.svg' width="48px" height="48px" alt='ember' /></div>
-              <div className="skill col-4"><span>Node.js</span><img src='assets/ui/node.svg' width="48px" height="48px" alt='node' /></div>
+              <div className="skill col-4"><span>Javascript</span><img src={javascriptSVG} width="48px" height="48px" alt='javascript' /></div>
+              <div className="skill col-4"><span>React.js</span><img src={reactSVG} width="48px" height="48px" alt='react' /></div>
+              <div className="skill col-4"><span>Ember.js</span><img src={emberSVG} width="48px" height="48px" alt='ember' /></div>
+              <div className="skill col-4"><span>Node.js</span><img src={nodeSVG} width="48px" height="48px" alt='node' /></div>
             </div>
             <div className='is-tablet row'>
-              <div className="skill col-4"><span>HTML5</span><img src='assets/ui/html5.svg' width="48px" height="48px" alt='html5' /></div>
-              <div className="skill col-4"><span>CSS3</span><img src='assets/ui/css3.svg' width="48px" height="48px" alt='css3' /></div>
-              <div className="skill col-4"><span>Sass</span><img src='assets/ui/sass.svg' width="48px" height="48px" alt='sass' /></div>
-              <div className="skill col-4"><span>Tailwind</span><img src='assets/ui/tailwind.svg' width="48px" height="48px" alt='tailwind' /></div>
+              <div className="skill col-4"><span>HTML5</span><img src={html5SVG} width="48px" height="48px" alt='html5' /></div>
+              <div className="skill col-4"><span>CSS3</span><img src={css3SVG} width="48px" height="48px" alt='css3' /></div>
+              <div className="skill col-4"><span>Sass</span><img src={sassSVG} width="48px" height="48px" alt='sass' /></div>
+              <div className="skill col-4"><span>Tailwind</span><img src={tailwindSVG} width="48px" height="48px" alt='tailwind' /></div>
             </div>
             <div className='is-tablet row'>
-              <div className="skill col-4"><span>Unity3D</span><img src='assets/ui/unity.png' width="48px" height="48px" alt='unity' /></div>
-              <div className="skill col-4"><span>C#</span><img src='assets/ui/csharp.svg' width="48px" height="48px" alt='csharp' /></div>
-              <div className="skill col-4"><span>Python</span><img src='assets/ui/python.svg' width="48px" height="48px" alt='python' /></div>
-              <div className="skill col-4"><span>Java</span><img src='assets/ui/java.svg' width="48px" height="48px" alt='java' /></div>
+              <div className="skill col-4"><span>Unity3D</span><img src={unitySVG} width="48px" height="48px" alt='unity' /></div>
+              <div className="skill col-4"><span>C#</span><img src={csharpSVG} width="48px" height="48px" alt='csharp' /></div>
+              <div className="skill col-4"><span>Python</span><img src={pythonSVG} width="48px" height="48px" alt='python' /></div>
+              <div className="skill col-4"><span>Java</span><img src={javaSVG} width="48px" height="48px" alt='java' /></div>
             </div>
           </div>
         </div>

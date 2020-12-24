@@ -1,10 +1,12 @@
 import React from 'react';
 
+import avatar from '../../resources/images/avatar.jpg';
+
 const Hero = () => {
   return (
     <section id='hero'>
       <div className="profile">
-        <img src="assets/images/avatar.jpg" alt="profile" className="image round" />
+        <img src={avatar} alt="profile" className="image round" />
         <h1 className="heading">William Grant</h1>
       </div>
     <p className="quote"><i>"Without music, life would be a mistake." - Friedrich Nietzsche</i></p>
