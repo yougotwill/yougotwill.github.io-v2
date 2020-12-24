@@ -6,3 +6,12 @@
     color: $secondary-color;
   }
 }
+
+body.dark-theme {
+  .button {
+    color: $text-color--dark;
+    &:hover{
+      color: $secondary-color;
+    }
+  }
+}

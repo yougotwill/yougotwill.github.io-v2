@@ -102,3 +102,15 @@
     }
   }
 }
+
+body.dark-theme {
+  #portfolio {
+    .project-card {
+      background: $foreground-color--dark;
+      &:hover {
+        background: lighten($color: $background-color--dark, $amount: 18);
+        border-color: white;
+      }
+    }
+  }
+}

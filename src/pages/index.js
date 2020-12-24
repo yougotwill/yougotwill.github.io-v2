@@ -8,6 +8,14 @@ import Portfolio from '../components/Portfolio';
 import About from '../components/About';
 import CallToAction from '../components/CallToAction';
 
+document.addEventListener('DOMContentLoaded', (event) =>
+{
+  if ( (localStorage.getItem('mode') || 'dark-theme') === 'dark-theme') {
+    document.querySelector('body').classList.add('dark-theme')
+  } else {
+    document.querySelector('body').classList.remove('dark-theme');
+  }
+});
 
 const IndexPage = () => {
   return (

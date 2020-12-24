@@ -67,3 +67,25 @@ p {
     font-style: italic;
   }
 }
+
+body.dark-theme {
+  background: $background-color--dark;
+  color: $text-color--dark;
+  h1,h2,h3,h4,h5,h6 {
+    color: $text-color--dark;
+  }
+  a {
+    color: $link-color--dark;
+    &:hover {
+      color: $text-color--dark;
+    }
+  }
+  section {
+    &.divide {
+      background: $foreground-color--dark;
+    }
+  }
+  .special {
+    color: $link-color--dark;
+  }
+}

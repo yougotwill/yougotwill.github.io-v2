@@ -67,3 +67,18 @@
     }
   }
 }
+
+body.dark-theme {
+  #about {
+    .about-box {
+      .skills {
+        .skill {
+          &:hover {
+            background: lighten($color: $background-color--dark, $amount: 18);
+            border-color: white;
+          }
+        }
+      }
+    }
+  }
+}

@@ -82,3 +82,18 @@ nav {
     }
   }
 }
+
+body.dark-theme {
+  nav {
+    background: $nav-color--dark;
+    border-bottom: none;
+    .logo {
+      .dark {
+        display: none;
+      }
+      .light {
+        display: block;
+      }
+    }
+  }
+}

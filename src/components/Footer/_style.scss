@@ -54,3 +54,10 @@ footer {
     }
   }
 }
+
+body.dark-theme {
+  footer {
+    background: $nav-color--dark;
+    border-top: none;
+  }
+}

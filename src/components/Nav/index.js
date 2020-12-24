@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import ThemeToggle from '../ThemeToggle';
 
 const Nav = () => {
   return (
@@ -10,6 +11,7 @@ const Nav = () => {
         <li><Link to='#about'>About</Link></li>
         <li><Link to='/music/'>Music</Link></li>
       </ul>
+      <ThemeToggle />
     </nav>
   );
 };
